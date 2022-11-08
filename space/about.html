@@ -7,15 +7,78 @@
     <title>About</title>
     <link href="./css/main.css" rel="stylesheet">
     <style>
+        
+        .abouttitle {
+            background-image: url(./images/greencosmos.jpg);
+            background-size:cover;
+            background-blend-mode:exclusion;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .h1title {
+            font-size: 70px;
+        }
+        .whitebox {
+            background-color: white;
+            color: black;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 50px 0px;
+            
+        }
+        .whitebox p {
+            padding: 10px 50px;
+            color: black;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+        .adjective {
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 50px;
+            padding: 40px 20px 0px 20px;
+            text-align: center;
+            text-transform: uppercase;
+
+        }
+        .sub {
+            text-align: center;
+            padding: 0px 0px 10px 0px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        hr {
+            width: 120px;
+            text-align: center;
+            margin: 25px 0px 25px 0px;
+            
+        
+        }
+        .adjectives {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        .size20 {
+            font-size: 20px;
+        }
+        .titleforp {
+            font-size: 30px;
+            padding: 10px 0px 0px 0px;
+        }
     
     </style>
 </head>
 <body>
     <header>
      <nav>
-        <section class="cornerlogo">
-            <img class="logo" href="./images/gradientplanet.png">
-        </section>
+        <figure>
+            <img class="logo" src="./images/gradientplanet.png" width="40">
+        </figure>
         <ul class="licontainer">
              <li> <a href="./space.html"> Home</a>
             </li>
@@ -25,8 +88,8 @@
             <li>
                 Services
             </li>
-            <li>
-                Project Development
+             <li> <a href="./projectdevelopment.html">
+                Project Development </a>
             </li>
             <li>
                 Contact
@@ -34,8 +97,54 @@
         </ul>
     </nav>
 </header>
+    <section class="abouttitle gill">
+        <h1 class="h1title"> Who am I?</h1>
+
+    </section>
+
     
 <main>
+    <section class="whitebox">
+        <p class="gill titleforp">
+            Title for the paragraph
+        </p>
+        <p class="gill size20"> 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora odit quaerat veniam? Consequatur asperiores illum inventore. Quia non alias iure ut illum nam odio, ratione possimus amet neque aliquid earum.
+
+        </p>
+        
+
+
+    </section>
+    <section class="adjectives">
+        <p class="adjective"> Passionate </p>
+        <p class="sub"> lorem ipsum</p>
+        <hr>
+        <p class="adjective"> Bold </p>
+        <p class="sub"> lorem ipsum</p>
+         <hr>
+        <p class="adjective"> Aware </p>
+        <p class="sub"> lorem ipsum</p>
+         <hr>
+        <p class="adjective"> Daring </p>
+        <p class="sub"> lorem ipsum</p>
+         <hr>
+        <p class="adjective"> Dedicated </p>
+        <p class="sub"> lorem ipsum</p>
+         <hr>
+        <p class="adjective"> Focused </p>
+        <p class="sub"> lorem ipsum</p>
+         <hr>
+
+    </section>
+    <section class="whitebox">
+        <p class="gill titleforp">
+            Title for the paragraph
+        </p>
+        <p class="gill size20"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis enim voluptates omnis dolorum reprehenderit rerum ad quaerat nostrum beatae sunt. Perferendis pariatur placeat quos expedita odit corporis laborum beatae adipisci! 
+        </p>
+
+    </section>
     
 
 
